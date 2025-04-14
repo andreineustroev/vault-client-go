@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleWriteTokenNumUsesRequest struct for AppRoleWriteTokenNumUsesRequest
 type AppRoleWriteTokenNumUsesRequest struct {
+
+
+
+
 	// The maximum number of times a token may be used, a value of zero means unlimited
 	TokenNumUses int32 `json:"token_num_uses,omitempty"`
+
 }
+
+
+
+
+

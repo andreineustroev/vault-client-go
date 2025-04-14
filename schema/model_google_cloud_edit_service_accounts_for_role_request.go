@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // GoogleCloudEditServiceAccountsForRoleRequest struct for GoogleCloudEditServiceAccountsForRoleRequest
 type GoogleCloudEditServiceAccountsForRoleRequest struct {
+
+
+
+
 	// Service-account emails or IDs to add.
 	Add []string `json:"add,omitempty"`
 
+
+
+
 	// Service-account emails or IDs to remove.
 	Remove []string `json:"remove,omitempty"`
+
 }
+
+
+
+
+

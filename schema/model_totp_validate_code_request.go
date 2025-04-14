@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // TotpValidateCodeRequest struct for TotpValidateCodeRequest
 type TotpValidateCodeRequest struct {
+
+
+
+
 	// TOTP code to be validated.
 	Code string `json:"code,omitempty"`
+
 }
+
+
+
+
+

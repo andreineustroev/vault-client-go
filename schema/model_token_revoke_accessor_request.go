@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // TokenRevokeAccessorRequest struct for TokenRevokeAccessorRequest
 type TokenRevokeAccessorRequest struct {
+
+
+
+
 	// Accessor of the token (request body)
 	Accessor string `json:"accessor,omitempty"`
+
 }
+
+
+
+
+

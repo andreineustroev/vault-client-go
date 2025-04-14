@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AwsTidyRoleTagDenyListRequest struct for AwsTidyRoleTagDenyListRequest
 type AwsTidyRoleTagDenyListRequest struct {
+
+
+
+
 	// The amount of extra time that must have passed beyond the roletag expiration, before it is removed from the backend storage.
 	SafetyBuffer string `json:"safety_buffer,omitempty"`
+
 }
+
+
+
+
+

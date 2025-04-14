@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // OktaWriteGroupRequest struct for OktaWriteGroupRequest
 type OktaWriteGroupRequest struct {
+
+
+
+
 	// Comma-separated list of policies associated to the group.
 	Policies []string `json:"policies,omitempty"`
+
 }
+
+
+
+
+

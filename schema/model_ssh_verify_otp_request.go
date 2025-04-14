@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // SshVerifyOtpRequest struct for SshVerifyOtpRequest
 type SshVerifyOtpRequest struct {
+
+
+
+
 	// [Required] One-Time-Key that needs to be validated
 	Otp string `json:"otp,omitempty"`
+
 }
+
+
+
+
+

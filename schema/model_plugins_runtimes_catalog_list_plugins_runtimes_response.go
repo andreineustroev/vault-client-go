@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PluginsRuntimesCatalogListPluginsRuntimesResponse struct for PluginsRuntimesCatalogListPluginsRuntimesResponse
 type PluginsRuntimesCatalogListPluginsRuntimesResponse struct {
+
+
+
+
 	// List of all plugin runtimes in the catalog
 	Runtimes []map[string]interface{} `json:"runtimes,omitempty"`
+
 }
+
+
+
+
+

@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // TokenLookUpRequest struct for TokenLookUpRequest
 type TokenLookUpRequest struct {
+
+
+
+
 	// Token to lookup
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

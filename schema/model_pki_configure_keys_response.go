@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiConfigureKeysResponse struct for PkiConfigureKeysResponse
 type PkiConfigureKeysResponse struct {
+
+
+
+
 	// Reference (name or identifier) to the default issuer.
 	Default string `json:"default,omitempty"`
+
 }
+
+
+
+
+

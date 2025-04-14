@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // AuditingCalculateHashRequest struct for AuditingCalculateHashRequest
 type AuditingCalculateHashRequest struct {
+
+
+
+
 	Input string `json:"input,omitempty"`
+
 }
+
+
+
+
+

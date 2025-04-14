@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LdapWriteGroupRequest struct for LdapWriteGroupRequest
 type LdapWriteGroupRequest struct {
+
+
+
+
 	// Comma-separated list of policies associated to the group.
 	Policies []string `json:"policies,omitempty"`
+
 }
+
+
+
+
+

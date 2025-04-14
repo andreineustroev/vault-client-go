@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // OciConfigureRequest struct for OciConfigureRequest
 type OciConfigureRequest struct {
+
+
+
+
 	// The tenancy id of the account.
 	HomeTenancyId string `json:"home_tenancy_id,omitempty"`
+
 }
+
+
+
+
+

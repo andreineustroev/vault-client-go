@@ -5,11 +5,33 @@
 
 package schema
 
+
+
+
+
+
+
 // InternalUiReadResultantAclResponse struct for InternalUiReadResultantAclResponse
 type InternalUiReadResultantAclResponse struct {
+
+
+
+
 	ExactPaths map[string]interface{} `json:"exact_paths,omitempty"`
+
+
+
 
 	GlobPaths map[string]interface{} `json:"glob_paths,omitempty"`
 
+
+
+
 	Root bool `json:"root,omitempty"`
+
 }
+
+
+
+
+

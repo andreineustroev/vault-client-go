@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PoliciesWritePasswordPolicyRequest struct for PoliciesWritePasswordPolicyRequest
 type PoliciesWritePasswordPolicyRequest struct {
+
+
+
+
 	// The password policy
 	Policy string `json:"policy,omitempty"`
+
 }
+
+
+
+
+

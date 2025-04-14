@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // AwsReadStaticCredsNameResponse struct for AwsReadStaticCredsNameResponse
 type AwsReadStaticCredsNameResponse struct {
+
+
+
+
 	// The access key of the AWS Credential
 	AccessKey string `json:"access_key,omitempty"`
 
+
+
+
 	// The secret key of the AWS Credential
 	SecretKey string `json:"secret_key,omitempty"`
+
 }
+
+
+
+
+

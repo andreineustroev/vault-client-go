@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // UserpassLoginRequest struct for UserpassLoginRequest
 type UserpassLoginRequest struct {
+
+
+
+
 	// Password for this user.
 	Password string `json:"password,omitempty"`
+
 }
+
+
+
+
+

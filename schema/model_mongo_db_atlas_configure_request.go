@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // MongoDbAtlasConfigureRequest struct for MongoDbAtlasConfigureRequest
 type MongoDbAtlasConfigureRequest struct {
+
+
+
+
 	// MongoDB Atlas Programmatic Private Key
 	PrivateKey string `json:"private_key"`
 
+
+
+
 	// MongoDB Atlas Programmatic Public Key
 	PublicKey string `json:"public_key"`
+
 }
+
+
+
+
+

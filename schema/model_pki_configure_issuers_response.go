@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiConfigureIssuersResponse struct for PkiConfigureIssuersResponse
 type PkiConfigureIssuersResponse struct {
+
+
+
+
 	// Reference (name or identifier) to the default issuer.
 	Default string `json:"default,omitempty"`
 
+
+
+
 	// Whether the default issuer should automatically follow the latest generated or imported issuer. Defaults to false.
 	DefaultFollowsLatestIssuer bool `json:"default_follows_latest_issuer,omitempty"`
+
 }
+
+
+
+
+

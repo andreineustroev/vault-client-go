@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiRootSignSelfIssuedResponse struct for PkiRootSignSelfIssuedResponse
 type PkiRootSignSelfIssuedResponse struct {
+
+
+
+
 	// Certificate
 	Certificate string `json:"certificate,omitempty"`
 
+
+
+
 	// Issuing CA
 	IssuingCa string `json:"issuing_ca,omitempty"`
+
 }
+
+
+
+
+

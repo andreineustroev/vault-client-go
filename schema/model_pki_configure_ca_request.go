@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiConfigureCaRequest struct for PkiConfigureCaRequest
 type PkiConfigureCaRequest struct {
+
+
+
+
 	// PEM-format, concatenated unencrypted secret key and certificate.
 	PemBundle string `json:"pem_bundle,omitempty"`
+
 }
+
+
+
+
+

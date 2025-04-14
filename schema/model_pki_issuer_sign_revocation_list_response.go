@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiIssuerSignRevocationListResponse struct for PkiIssuerSignRevocationListResponse
 type PkiIssuerSignRevocationListResponse struct {
+
+
+
+
 	// CRL
 	Crl string `json:"crl,omitempty"`
+
 }
+
+
+
+
+

@@ -5,13 +5,35 @@
 
 package schema
 
+
+
+
+
+
+
 // PluginsReloadBackendsRequest struct for PluginsReloadBackendsRequest
 type PluginsReloadBackendsRequest struct {
+
+
+
+
 	// The mount paths of the plugin backends to reload.
 	Mounts []string `json:"mounts,omitempty"`
+
+
+
 
 	// The name of the plugin to reload, as registered in the plugin catalog.
 	Plugin string `json:"plugin,omitempty"`
 
+
+
+
 	Scope string `json:"scope,omitempty"`
+
 }
+
+
+
+
+

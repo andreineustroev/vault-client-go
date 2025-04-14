@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LoggersUpdateVerbosityLevelForRequest struct for LoggersUpdateVerbosityLevelForRequest
 type LoggersUpdateVerbosityLevelForRequest struct {
+
+
+
+
 	// Log verbosity level. Supported values (in order of detail) are \"trace\", \"debug\", \"info\", \"warn\", and \"error\".
 	Level string `json:"level,omitempty"`
+
 }
+
+
+
+
+

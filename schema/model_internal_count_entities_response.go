@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // InternalCountEntitiesResponse struct for InternalCountEntitiesResponse
 type InternalCountEntitiesResponse struct {
+
+
+
+
 	Counters map[string]interface{} `json:"counters,omitempty"`
+
 }
+
+
+
+
+

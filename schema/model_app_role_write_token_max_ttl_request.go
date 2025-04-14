@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleWriteTokenMaxTtlRequest struct for AppRoleWriteTokenMaxTtlRequest
 type AppRoleWriteTokenMaxTtlRequest struct {
+
+
+
+
 	// The maximum lifetime of the generated token
 	TokenMaxTtl string `json:"token_max_ttl,omitempty"`
+
 }
+
+
+
+
+

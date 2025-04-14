@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // RadiusWriteUserRequest struct for RadiusWriteUserRequest
 type RadiusWriteUserRequest struct {
+
+
+
+
 	// Comma-separated list of policies associated to the user.
 	Policies []string `json:"policies,omitempty"`
+
 }
+
+
+
+
+

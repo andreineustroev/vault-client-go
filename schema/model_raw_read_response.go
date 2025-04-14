@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // RawReadResponse struct for RawReadResponse
 type RawReadResponse struct {
+
+
+
+
 	Value string `json:"value,omitempty"`
+
 }
+
+
+
+
+

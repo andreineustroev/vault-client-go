@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleLookUpSecretIdRequest struct for AppRoleLookUpSecretIdRequest
 type AppRoleLookUpSecretIdRequest struct {
+
+
+
+
 	// SecretID attached to the role.
 	SecretId string `json:"secret_id,omitempty"`
+
 }
+
+
+
+
+

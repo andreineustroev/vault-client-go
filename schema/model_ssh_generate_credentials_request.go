@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // SshGenerateCredentialsRequest struct for SshGenerateCredentialsRequest
 type SshGenerateCredentialsRequest struct {
+
+
+
+
 	// [Required] IP of the remote host
 	Ip string `json:"ip,omitempty"`
 
+
+
+
 	// [Optional] Username in remote host
 	Username string `json:"username,omitempty"`
+
 }
+
+
+
+
+

@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // RekeyVerificationUpdateRequest struct for RekeyVerificationUpdateRequest
 type RekeyVerificationUpdateRequest struct {
+
+
+
+
 	// Specifies a single unseal share key from the new set of shares.
 	Key string `json:"key,omitempty"`
 
+
+
+
 	// Specifies the nonce of the rekey verification operation.
 	Nonce string `json:"nonce,omitempty"`
+
 }
+
+
+
+
+

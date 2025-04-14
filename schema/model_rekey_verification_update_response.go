@@ -5,9 +5,28 @@
 
 package schema
 
+
+
+
+
+
+
 // RekeyVerificationUpdateResponse struct for RekeyVerificationUpdateResponse
 type RekeyVerificationUpdateResponse struct {
+
+
+
+
 	Complete bool `json:"complete,omitempty"`
 
+
+
+
 	Nounce string `json:"nounce,omitempty"`
+
 }
+
+
+
+
+

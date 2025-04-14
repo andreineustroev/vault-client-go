@@ -5,11 +5,33 @@
 
 package schema
 
+
+
+
+
+
+
 // RateLimitQuotasReadConfigurationResponse struct for RateLimitQuotasReadConfigurationResponse
 type RateLimitQuotasReadConfigurationResponse struct {
+
+
+
+
 	EnableRateLimitAuditLogging bool `json:"enable_rate_limit_audit_logging,omitempty"`
+
+
+
 
 	EnableRateLimitResponseHeaders bool `json:"enable_rate_limit_response_headers,omitempty"`
 
+
+
+
 	RateLimitExemptPaths []string `json:"rate_limit_exempt_paths,omitempty"`
+
 }
+
+
+
+
+

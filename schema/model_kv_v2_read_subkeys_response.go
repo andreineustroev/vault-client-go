@@ -5,9 +5,28 @@
 
 package schema
 
+
+
+
+
+
+
 // KvV2ReadSubkeysResponse struct for KvV2ReadSubkeysResponse
 type KvV2ReadSubkeysResponse struct {
+
+
+
+
 	Metadata map[string]interface{} `json:"metadata,omitempty"`
 
+
+
+
 	Subkeys map[string]interface{} `json:"subkeys,omitempty"`
+
 }
+
+
+
+
+

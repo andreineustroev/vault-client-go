@@ -5,20 +5,48 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiReadCertDeltaCrlResponse struct for PkiReadCertDeltaCrlResponse
 type PkiReadCertDeltaCrlResponse struct {
+
+
+
+
 	// Issuing CA Chain
 	CaChain string `json:"ca_chain,omitempty"`
+
+
+
 
 	// Certificate
 	Certificate string `json:"certificate,omitempty"`
 
+
+
+
 	// ID of the issuer
 	IssuerId string `json:"issuer_id,omitempty"`
+
+
+
 
 	// Revocation time
 	RevocationTime int64 `json:"revocation_time,omitempty"`
 
+
+
+
 	// Revocation time RFC 3339 formatted
 	RevocationTimeRfc3339 string `json:"revocation_time_rfc3339,omitempty"`
+
 }
+
+
+
+
+

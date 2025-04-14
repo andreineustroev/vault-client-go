@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiListEabKeysResponse struct for PkiListEabKeysResponse
 type PkiListEabKeysResponse struct {
+
+
+
+
 	// EAB details keyed by the eab key id
 	KeyInfo map[string]interface{} `json:"key_info,omitempty"`
 
+
+
+
 	// A list of unused eab keys
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

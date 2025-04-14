@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // StandardListResponse struct for StandardListResponse
 type StandardListResponse struct {
+
+
+
+
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

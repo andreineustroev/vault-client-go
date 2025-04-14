@@ -5,9 +5,28 @@
 
 package schema
 
+
+
+
+
+
+
 // PoliciesListAclPoliciesResponse struct for PoliciesListAclPoliciesResponse
 type PoliciesListAclPoliciesResponse struct {
+
+
+
+
 	Keys []string `json:"keys,omitempty"`
 
+
+
+
 	Policies []string `json:"policies,omitempty"`
+
 }
+
+
+
+
+

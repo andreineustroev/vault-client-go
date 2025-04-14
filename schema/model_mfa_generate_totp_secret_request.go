@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // MfaGenerateTotpSecretRequest struct for MfaGenerateTotpSecretRequest
 type MfaGenerateTotpSecretRequest struct {
+
+
+
+
 	// The unique identifier for this MFA method.
 	MethodId string `json:"method_id"`
+
 }
+
+
+
+
+

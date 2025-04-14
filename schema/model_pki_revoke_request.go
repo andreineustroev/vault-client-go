@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiRevokeRequest struct for PkiRevokeRequest
 type PkiRevokeRequest struct {
+
+
+
+
 	// Certificate to revoke in PEM format; must be signed by an issuer in this mount.
 	Certificate string `json:"certificate,omitempty"`
 
+
+
+
 	// Certificate serial number, in colon- or hyphen-separated octal
 	SerialNumber string `json:"serial_number,omitempty"`
+
 }
+
+
+
+
+

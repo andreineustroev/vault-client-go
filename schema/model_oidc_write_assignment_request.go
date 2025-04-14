@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // OidcWriteAssignmentRequest struct for OidcWriteAssignmentRequest
 type OidcWriteAssignmentRequest struct {
+
+
+
+
 	// Comma separated string or array of identity entity IDs
 	EntityIds []string `json:"entity_ids,omitempty"`
 
+
+
+
 	// Comma separated string or array of identity group IDs
 	GroupIds []string `json:"group_ids,omitempty"`
+
 }
+
+
+
+
+

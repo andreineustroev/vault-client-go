@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiListIssuersResponse struct for PkiListIssuersResponse
 type PkiListIssuersResponse struct {
+
+
+
+
 	// Key info with issuer name
 	KeyInfo map[string]interface{} `json:"key_info,omitempty"`
 
+
+
+
 	// A list of keys
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LeasesRevokeLeaseWithPrefixRequest struct for LeasesRevokeLeaseWithPrefixRequest
 type LeasesRevokeLeaseWithPrefixRequest struct {
+
+
+
+
 	// Whether or not to perform the revocation synchronously
 	Sync bool `json:"sync,omitempty"`
+
 }
+
+
+
+
+

@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // HaStatusResponse struct for HaStatusResponse
 type HaStatusResponse struct {
+
+
+
+
 	Nodes []map[string]interface{} `json:"nodes,omitempty"`
+
 }
+
+
+
+
+

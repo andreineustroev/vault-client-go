@@ -5,12 +5,31 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleReadPoliciesResponse struct for AppRoleReadPoliciesResponse
 type AppRoleReadPoliciesResponse struct {
+
+
+
+
 	// Use \"token_policies\" instead. If this and \"token_policies\" are both specified, only \"token_policies\" will be used.
 	// Deprecated
 	Policies []string `json:"policies,omitempty"`
 
+
+
+
 	// Comma-separated list of policies
 	TokenPolicies []string `json:"token_policies,omitempty"`
+
 }
+
+
+
+
+

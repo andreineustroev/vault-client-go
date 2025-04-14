@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // ReadWrappingPropertiesRequest struct for ReadWrappingPropertiesRequest
 type ReadWrappingPropertiesRequest struct {
+
+
+
+
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

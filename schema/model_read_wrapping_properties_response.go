@@ -5,13 +5,35 @@
 
 package schema
 
+
+
 import "time"
+
+
+
+
 
 // ReadWrappingPropertiesResponse struct for ReadWrappingPropertiesResponse
 type ReadWrappingPropertiesResponse struct {
+
+
+
+
 	CreationPath string `json:"creation_path,omitempty"`
+
+
+
 
 	CreationTime time.Time `json:"creation_time,omitempty"`
 
+
+
+
 	CreationTtl string `json:"creation_ttl,omitempty"`
+
 }
+
+
+
+
+

@@ -5,14 +5,36 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiWriteIssuerIssuerRefAcmeNewAccountRequest struct for PkiWriteIssuerIssuerRefAcmeNewAccountRequest
 type PkiWriteIssuerIssuerRefAcmeNewAccountRequest struct {
+
+
+
+
 	// ACME request 'payload' value
 	Payload string `json:"payload,omitempty"`
+
+
+
 
 	// ACME request 'protected' value
 	Protected string `json:"protected,omitempty"`
 
+
+
+
 	// ACME request 'signature' value
 	Signature string `json:"signature,omitempty"`
+
 }
+
+
+
+
+

@@ -5,11 +5,33 @@
 
 package schema
 
+
+
+
+
+
+
 // CorsReadConfigurationResponse struct for CorsReadConfigurationResponse
 type CorsReadConfigurationResponse struct {
+
+
+
+
 	AllowedHeaders []string `json:"allowed_headers,omitempty"`
+
+
+
 
 	AllowedOrigins []string `json:"allowed_origins,omitempty"`
 
+
+
+
 	Enabled bool `json:"enabled,omitempty"`
+
 }
+
+
+
+
+

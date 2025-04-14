@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // PluginsCatalogListPluginsResponse struct for PluginsCatalogListPluginsResponse
 type PluginsCatalogListPluginsResponse struct {
+
+
+
+
 	Detailed map[string]interface{} `json:"detailed,omitempty"`
+
 }
+
+
+
+
+

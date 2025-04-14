@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiReplaceRootRequest struct for PkiReplaceRootRequest
 type PkiReplaceRootRequest struct {
+
+
+
+
 	// Reference (name or identifier) to the default issuer.
 	Default string `json:"default,omitempty"`
+
 }
+
+
+
+
+

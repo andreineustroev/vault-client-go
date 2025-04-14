@@ -5,20 +5,48 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiRootSignIntermediateResponse struct for PkiRootSignIntermediateResponse
 type PkiRootSignIntermediateResponse struct {
+
+
+
+
 	// CA Chain
 	CaChain []string `json:"ca_chain,omitempty"`
+
+
+
 
 	// Certificate
 	Certificate string `json:"certificate,omitempty"`
 
+
+
+
 	// Expiration Time
 	Expiration int64 `json:"expiration,omitempty"`
+
+
+
 
 	// Issuing CA
 	IssuingCa string `json:"issuing_ca,omitempty"`
 
+
+
+
 	// Serial Number
 	SerialNumber string `json:"serial_number,omitempty"`
+
 }
+
+
+
+
+

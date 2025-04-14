@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiImportKeyRequest struct for PkiImportKeyRequest
 type PkiImportKeyRequest struct {
+
+
+
+
 	// Optional name to be used for this key
 	KeyName string `json:"key_name,omitempty"`
 
+
+
+
 	// PEM-format, unencrypted secret key
 	PemBundle string `json:"pem_bundle,omitempty"`
+
 }
+
+
+
+
+

@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // InternalUiListEnabledFeatureFlagsResponse struct for InternalUiListEnabledFeatureFlagsResponse
 type InternalUiListEnabledFeatureFlagsResponse struct {
+
+
+
+
 	FeatureFlags []string `json:"feature_flags,omitempty"`
+
 }
+
+
+
+
+

@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // OidcConfigureRequest struct for OidcConfigureRequest
 type OidcConfigureRequest struct {
+
+
+
+
 	// Issuer URL to be used in the iss claim of the token. If not set, Vault's app_addr will be used.
 	Issuer string `json:"issuer,omitempty"`
+
 }
+
+
+
+
+

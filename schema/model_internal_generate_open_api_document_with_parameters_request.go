@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // InternalGenerateOpenApiDocumentWithParametersRequest struct for InternalGenerateOpenApiDocumentWithParametersRequest
 type InternalGenerateOpenApiDocumentWithParametersRequest struct {
+
+
+
+
 	// Context string appended to every operationId
 	Context string `json:"context,omitempty"`
 
+
+
+
 	// Use generic mount paths
 	GenericMountPaths bool `json:"generic_mount_paths,omitempty"`
+
 }
+
+
+
+
+

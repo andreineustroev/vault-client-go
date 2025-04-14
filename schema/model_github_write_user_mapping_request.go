@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // GithubWriteUserMappingRequest struct for GithubWriteUserMappingRequest
 type GithubWriteUserMappingRequest struct {
+
+
+
+
 	// Value for users mapping
 	Value string `json:"value,omitempty"`
+
 }
+
+
+
+
+

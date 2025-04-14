@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleWriteRoleIdRequest struct for AppRoleWriteRoleIdRequest
 type AppRoleWriteRoleIdRequest struct {
+
+
+
+
 	// Identifier of the role. Defaults to a UUID.
 	RoleId string `json:"role_id,omitempty"`
+
 }
+
+
+
+
+

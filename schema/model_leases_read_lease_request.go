@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LeasesReadLeaseRequest struct for LeasesReadLeaseRequest
 type LeasesReadLeaseRequest struct {
+
+
+
+
 	// The lease identifier to renew. This is included with a lease.
 	LeaseId string `json:"lease_id,omitempty"`
+
 }
+
+
+
+
+

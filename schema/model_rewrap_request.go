@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // RewrapRequest struct for RewrapRequest
 type RewrapRequest struct {
+
+
+
+
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

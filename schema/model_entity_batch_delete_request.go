@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // EntityBatchDeleteRequest struct for EntityBatchDeleteRequest
 type EntityBatchDeleteRequest struct {
+
+
+
+
 	// Entity IDs to delete
 	EntityIds []string `json:"entity_ids,omitempty"`
+
 }
+
+
+
+
+

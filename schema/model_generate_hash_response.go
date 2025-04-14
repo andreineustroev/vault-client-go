@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // GenerateHashResponse struct for GenerateHashResponse
 type GenerateHashResponse struct {
+
+
+
+
 	Sum string `json:"sum,omitempty"`
+
 }
+
+
+
+
+

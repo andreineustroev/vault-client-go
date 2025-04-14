@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // UiHeadersListResponse struct for UiHeadersListResponse
 type UiHeadersListResponse struct {
+
+
+
+
 	// Lists of configured UI headers. Omitted if list is empty
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

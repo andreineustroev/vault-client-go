@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // KerberosLoginRequest struct for KerberosLoginRequest
 type KerberosLoginRequest struct {
+
+
+
+
 	// SPNEGO Authorization header. Required.
 	Authorization string `json:"authorization,omitempty"`
+
 }
+
+
+
+
+

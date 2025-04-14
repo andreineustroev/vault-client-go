@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleLoginResponse struct for AppRoleLoginResponse
 type AppRoleLoginResponse struct {
+
+
+
+
 	Role string `json:"role,omitempty"`
+
 }
+
+
+
+
+

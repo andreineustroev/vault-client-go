@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // PoliciesReadPasswordPolicyResponse struct for PoliciesReadPasswordPolicyResponse
 type PoliciesReadPasswordPolicyResponse struct {
+
+
+
+
 	Policy string `json:"policy,omitempty"`
+
 }
+
+
+
+
+

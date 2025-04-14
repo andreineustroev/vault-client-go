@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // LeasesRenewLeaseWithIdRequest struct for LeasesRenewLeaseWithIdRequest
 type LeasesRenewLeaseWithIdRequest struct {
+
+
+
+
 	// The desired increment in seconds to the lease
 	Increment string `json:"increment,omitempty"`
 
+
+
+
 	// The lease identifier to renew. This is included with a lease.
 	LeaseId string `json:"lease_id,omitempty"`
+
 }
+
+
+
+
+

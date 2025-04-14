@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // RabbitMqConfigureLeaseRequest struct for RabbitMqConfigureLeaseRequest
 type RabbitMqConfigureLeaseRequest struct {
+
+
+
+
 	// Duration after which the issued credentials should not be allowed to be renewed
 	MaxTtl string `json:"max_ttl,omitempty"`
 
+
+
+
 	// Duration before which the issued credentials needs renewal
 	Ttl string `json:"ttl,omitempty"`
+
 }
+
+
+
+
+

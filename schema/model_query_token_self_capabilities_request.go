@@ -5,15 +5,37 @@
 
 package schema
 
+
+
+
+
+
+
 // QueryTokenSelfCapabilitiesRequest struct for QueryTokenSelfCapabilitiesRequest
 type QueryTokenSelfCapabilitiesRequest struct {
+
+
+
+
 	// Use 'paths' instead.
 	// Deprecated
 	Path []string `json:"path,omitempty"`
 
+
+
+
 	// Paths on which capabilities are being queried.
 	Paths []string `json:"paths,omitempty"`
 
+
+
+
 	// Token for which capabilities are being queried.
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

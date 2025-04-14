@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // TokenRevokeRequest struct for TokenRevokeRequest
 type TokenRevokeRequest struct {
+
+
+
+
 	// Token to revoke (request body)
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

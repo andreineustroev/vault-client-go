@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PoliciesWriteAclPolicyRequest struct for PoliciesWriteAclPolicyRequest
 type PoliciesWriteAclPolicyRequest struct {
+
+
+
+
 	// The rules of the policy.
 	Policy string `json:"policy,omitempty"`
+
 }
+
+
+
+
+

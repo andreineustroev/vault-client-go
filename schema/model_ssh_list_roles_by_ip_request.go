@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // SshListRolesByIpRequest struct for SshListRolesByIpRequest
 type SshListRolesByIpRequest struct {
+
+
+
+
 	// [Required] IP address of remote host
 	Ip string `json:"ip,omitempty"`
+
 }
+
+
+
+
+

@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // TokenRenewRequest struct for TokenRenewRequest
 type TokenRenewRequest struct {
+
+
+
+
 	// The desired increment in seconds to the token expiration
 	Increment string `json:"increment,omitempty"`
 
+
+
+
 	// Token to renew (request body)
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

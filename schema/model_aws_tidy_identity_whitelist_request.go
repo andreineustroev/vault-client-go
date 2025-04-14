@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AwsTidyIdentityWhitelistRequest struct for AwsTidyIdentityWhitelistRequest
 type AwsTidyIdentityWhitelistRequest struct {
+
+
+
+
 	// The amount of extra time that must have passed beyond the identity's expiration, before it is removed from the backend storage.
 	SafetyBuffer string `json:"safety_buffer,omitempty"`
+
 }
+
+
+
+
+

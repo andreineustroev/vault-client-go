@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // MfaAdminDestroyTotpSecretRequest struct for MfaAdminDestroyTotpSecretRequest
 type MfaAdminDestroyTotpSecretRequest struct {
+
+
+
+
 	// Identifier of the entity from which the MFA method secret needs to be removed.
 	EntityId string `json:"entity_id"`
 
+
+
+
 	// The unique identifier for this MFA method.
 	MethodId string `json:"method_id"`
+
 }
+
+
+
+
+

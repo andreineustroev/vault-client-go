@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LdapLibraryForceCheckInRequest struct for LdapLibraryForceCheckInRequest
 type LdapLibraryForceCheckInRequest struct {
+
+
+
+
 	// The username/logon name for the service accounts to check in.
 	ServiceAccountNames []string `json:"service_account_names,omitempty"`
+
 }
+
+
+
+
+

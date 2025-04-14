@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // AuditingListRequestHeadersResponse struct for AuditingListRequestHeadersResponse
 type AuditingListRequestHeadersResponse struct {
+
+
+
+
 	Headers map[string]interface{} `json:"headers,omitempty"`
+
 }
+
+
+
+
+

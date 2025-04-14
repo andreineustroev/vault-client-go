@@ -5,14 +5,36 @@
 
 package schema
 
+
+
+
+
+
+
 // RabbitMqWriteRoleRequest struct for RabbitMqWriteRoleRequest
 type RabbitMqWriteRoleRequest struct {
+
+
+
+
 	// Comma-separated list of tags for this role.
 	Tags string `json:"tags,omitempty"`
+
+
+
 
 	// A nested map of virtual hosts and exchanges to topic permissions.
 	VhostTopics string `json:"vhost_topics,omitempty"`
 
+
+
+
 	// A map of virtual hosts to permissions.
 	Vhosts string `json:"vhosts,omitempty"`
+
 }
+
+
+
+
+

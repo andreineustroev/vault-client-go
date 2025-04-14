@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // OktaWriteUserRequest struct for OktaWriteUserRequest
 type OktaWriteUserRequest struct {
+
+
+
+
 	// List of groups associated with the user.
 	Groups []string `json:"groups,omitempty"`
 
+
+
+
 	// List of policies associated with the user.
 	Policies []string `json:"policies,omitempty"`
+
 }
+
+
+
+
+

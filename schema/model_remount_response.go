@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // RemountResponse struct for RemountResponse
 type RemountResponse struct {
+
+
+
+
 	MigrationId string `json:"migration_id,omitempty"`
+
 }
+
+
+
+
+

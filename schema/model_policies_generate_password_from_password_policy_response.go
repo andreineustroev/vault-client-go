@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // PoliciesGeneratePasswordFromPasswordPolicyResponse struct for PoliciesGeneratePasswordFromPasswordPolicyResponse
 type PoliciesGeneratePasswordFromPasswordPolicyResponse struct {
+
+
+
+
 	Password string `json:"password,omitempty"`
+
 }
+
+
+
+
+

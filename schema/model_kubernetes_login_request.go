@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // KubernetesLoginRequest struct for KubernetesLoginRequest
 type KubernetesLoginRequest struct {
+
+
+
+
 	// A signed JWT for authenticating a service account. This field is required.
 	Jwt string `json:"jwt,omitempty"`
 
+
+
+
 	// Name of the role against which the login is being attempted. This field is required
 	Role string `json:"role,omitempty"`
+
 }
+
+
+
+
+

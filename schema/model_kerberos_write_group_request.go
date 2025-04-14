@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // KerberosWriteGroupRequest struct for KerberosWriteGroupRequest
 type KerberosWriteGroupRequest struct {
+
+
+
+
 	// Comma-separated list of policies associated to the group.
 	Policies []string `json:"policies,omitempty"`
+
 }
+
+
+
+
+

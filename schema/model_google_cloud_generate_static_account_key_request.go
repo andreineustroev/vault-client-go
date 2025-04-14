@@ -5,14 +5,36 @@
 
 package schema
 
+
+
+
+
+
+
 // GoogleCloudGenerateStaticAccountKeyRequest struct for GoogleCloudGenerateStaticAccountKeyRequest
 type GoogleCloudGenerateStaticAccountKeyRequest struct {
+
+
+
+
 	// Private key algorithm for service account key. Defaults to KEY_ALG_RSA_2048.\"
 	KeyAlgorithm string `json:"key_algorithm,omitempty"`
+
+
+
 
 	// Private key type for service account key. Defaults to TYPE_GOOGLE_CREDENTIALS_FILE.\"
 	KeyType string `json:"key_type,omitempty"`
 
+
+
+
 	// Lifetime of the service account key
 	Ttl string `json:"ttl,omitempty"`
+
 }
+
+
+
+
+

@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // AuditingCalculateHashResponse struct for AuditingCalculateHashResponse
 type AuditingCalculateHashResponse struct {
+
+
+
+
 	Hash string `json:"hash,omitempty"`
+
 }
+
+
+
+
+

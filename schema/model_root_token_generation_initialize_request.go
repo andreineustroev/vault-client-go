@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // RootTokenGenerationInitializeRequest struct for RootTokenGenerationInitializeRequest
 type RootTokenGenerationInitializeRequest struct {
+
+
+
+
 	// Specifies a base64-encoded PGP public key.
 	PgpKey string `json:"pgp_key,omitempty"`
+
 }
+
+
+
+
+

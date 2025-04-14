@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleWriteBindSecretIdRequest struct for AppRoleWriteBindSecretIdRequest
 type AppRoleWriteBindSecretIdRequest struct {
+
+
+
+
 	// Impose secret_id to be presented when logging in using this role.
 	BindSecretId bool `json:"bind_secret_id,omitempty"`
+
 }
+
+
+
+
+

@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // GoogleCloudEditLabelsForRoleRequest struct for GoogleCloudEditLabelsForRoleRequest
 type GoogleCloudEditLabelsForRoleRequest struct {
+
+
+
+
 	// BoundLabels to add (in $key:$value)
 	Add []string `json:"add,omitempty"`
 
+
+
+
 	// Label key values to remove
 	Remove []string `json:"remove,omitempty"`
+
 }
+
+
+
+
+

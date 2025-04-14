@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleLookUpSecretIdByAccessorRequest struct for AppRoleLookUpSecretIdByAccessorRequest
 type AppRoleLookUpSecretIdByAccessorRequest struct {
+
+
+
+
 	// Accessor of the SecretID
 	SecretIdAccessor string `json:"secret_id_accessor,omitempty"`
+
 }
+
+
+
+
+

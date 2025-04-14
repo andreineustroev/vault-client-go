@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleWriteSecretIdTtlRequest struct for AppRoleWriteSecretIdTtlRequest
 type AppRoleWriteSecretIdTtlRequest struct {
+
+
+
+
 	// Duration in seconds after which the issued SecretID should expire. Defaults to 0, meaning no expiration.
 	SecretIdTtl string `json:"secret_id_ttl,omitempty"`
+
 }
+
+
+
+
+

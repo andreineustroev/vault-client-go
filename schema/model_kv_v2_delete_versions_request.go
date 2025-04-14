@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // KvV2DeleteVersionsRequest struct for KvV2DeleteVersionsRequest
 type KvV2DeleteVersionsRequest struct {
+
+
+
+
 	// The versions to be archived. The versioned data will not be deleted, but it will no longer be returned in normal get requests.
 	Versions []int32 `json:"versions,omitempty"`
+
 }
+
+
+
+
+

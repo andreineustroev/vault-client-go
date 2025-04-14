@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LeasesLookUpResponse struct for LeasesLookUpResponse
 type LeasesLookUpResponse struct {
+
+
+
+
 	// A list of lease ids
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

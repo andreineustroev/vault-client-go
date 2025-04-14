@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiConfigureKeysRequest struct for PkiConfigureKeysRequest
 type PkiConfigureKeysRequest struct {
+
+
+
+
 	// Reference (name or identifier) of the default key.
 	Default string `json:"default,omitempty"`
+
 }
+
+
+
+
+

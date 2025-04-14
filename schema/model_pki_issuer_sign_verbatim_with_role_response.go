@@ -5,20 +5,48 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiIssuerSignVerbatimWithRoleResponse struct for PkiIssuerSignVerbatimWithRoleResponse
 type PkiIssuerSignVerbatimWithRoleResponse struct {
+
+
+
+
 	// Certificate Chain
 	CaChain []string `json:"ca_chain,omitempty"`
+
+
+
 
 	// Certificate
 	Certificate string `json:"certificate,omitempty"`
 
+
+
+
 	// Time of expiration
 	Expiration int64 `json:"expiration,omitempty"`
+
+
+
 
 	// Issuing Certificate Authority
 	IssuingCa string `json:"issuing_ca,omitempty"`
 
+
+
+
 	// Serial Number
 	SerialNumber string `json:"serial_number,omitempty"`
+
 }
+
+
+
+
+

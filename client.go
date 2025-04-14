@@ -38,10 +38,11 @@ type Client struct {
 	replicationStates replicationStateCache
 
 	// generated request methods
-	Auth     Auth
+	Auth Auth
 	Identity Identity
-	Secrets  Secrets
-	System   System
+	Secrets Secrets
+	System System
+
 }
 
 // New returns a new client decorated with the given configuration options
@@ -123,6 +124,9 @@ func newClient(configuration ClientConfiguration) (*Client, error) {
 		}
 	}
 
+
+
+
 	c.Auth = Auth{
 		client: &c,
 	}
@@ -179,19 +183,22 @@ func (c *Client) Clone() *Client {
 
 	clone.clientRequestModifiers = c.cloneClientRequestModifiers()
 
-	clone.Auth = Auth{
+
+
+
+	clone.Auth = Auth {
 		client: &clone,
 	}
 
-	clone.Identity = Identity{
+	clone.Identity = Identity {
 		client: &clone,
 	}
 
-	clone.Secrets = Secrets{
+	clone.Secrets = Secrets {
 		client: &clone,
 	}
 
-	clone.System = System{
+	clone.System = System {
 		client: &clone,
 	}
 

@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // TokenRenewAccessorRequest struct for TokenRenewAccessorRequest
 type TokenRenewAccessorRequest struct {
+
+
+
+
 	// Accessor of the token to renew (request body)
 	Accessor string `json:"accessor,omitempty"`
 
+
+
+
 	// The desired increment in seconds to the token expiration
 	Increment string `json:"increment,omitempty"`
+
 }
+
+
+
+
+

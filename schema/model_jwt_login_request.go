@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // JwtLoginRequest struct for JwtLoginRequest
 type JwtLoginRequest struct {
+
+
+
+
 	// The signed JWT to validate.
 	Jwt string `json:"jwt,omitempty"`
 
+
+
+
 	// The role to log in against.
 	Role string `json:"role,omitempty"`
+
 }
+
+
+
+
+

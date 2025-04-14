@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // GoogleCloudLoginRequest struct for GoogleCloudLoginRequest
 type GoogleCloudLoginRequest struct {
+
+
+
+
 	// A signed JWT. This is either a self-signed service account JWT ('iam' roles only) or a GCE identity metadata token ('iam', 'gce' roles).
 	Jwt string `json:"jwt,omitempty"`
 
+
+
+
 	// Name of the role against which the login is being attempted. Required.
 	Role string `json:"role,omitempty"`
+
 }
+
+
+
+
+

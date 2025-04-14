@@ -5,11 +5,33 @@
 
 package schema
 
+
+
+
+
+
+
 // RekeyReadBackupKeyResponse struct for RekeyReadBackupKeyResponse
 type RekeyReadBackupKeyResponse struct {
+
+
+
+
 	Keys map[string]interface{} `json:"keys,omitempty"`
+
+
+
 
 	KeysBase64 map[string]interface{} `json:"keys_base64,omitempty"`
 
+
+
+
 	Nonce string `json:"nonce,omitempty"`
+
 }
+
+
+
+
+

@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // GenerateRandomRequest struct for GenerateRandomRequest
 type GenerateRandomRequest struct {
+
+
+
+
 	// The number of bytes to generate (POST body parameter). Defaults to 32 (256 bits).
 	Bytes int32 `json:"bytes,omitempty"`
 
+
+
+
 	// Encoding format to use. Can be \"hex\" or \"base64\". Defaults to \"base64\".
 	Format string `json:"format,omitempty"`
+
 }
+
+
+
+
+

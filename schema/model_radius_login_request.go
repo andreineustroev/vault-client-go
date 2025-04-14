@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // RadiusLoginRequest struct for RadiusLoginRequest
 type RadiusLoginRequest struct {
+
+
+
+
 	// Password for this user.
 	Password string `json:"password,omitempty"`
 
+
+
+
 	// Username to be used for login. (POST request body)
 	Username string `json:"username,omitempty"`
+
 }
+
+
+
+
+

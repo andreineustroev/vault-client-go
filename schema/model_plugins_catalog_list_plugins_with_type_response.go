@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PluginsCatalogListPluginsWithTypeResponse struct for PluginsCatalogListPluginsWithTypeResponse
 type PluginsCatalogListPluginsWithTypeResponse struct {
+
+
+
+
 	// List of plugin names in the catalog
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

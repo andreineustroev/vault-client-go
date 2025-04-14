@@ -5,17 +5,45 @@
 
 package schema
 
+
+
 import "time"
+
+
+
+
 
 // KvV2PatchResponse struct for KvV2PatchResponse
 type KvV2PatchResponse struct {
+
+
+
+
 	CreatedTime time.Time `json:"created_time,omitempty"`
+
+
+
 
 	CustomMetadata map[string]interface{} `json:"custom_metadata,omitempty"`
 
+
+
+
 	DeletionTime string `json:"deletion_time,omitempty"`
+
+
+
 
 	Destroyed bool `json:"destroyed,omitempty"`
 
+
+
+
 	Version int64 `json:"version,omitempty"`
+
 }
+
+
+
+
+

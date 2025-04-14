@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleDestroySecretIdRequest struct for AppRoleDestroySecretIdRequest
 type AppRoleDestroySecretIdRequest struct {
+
+
+
+
 	// SecretID attached to the role.
 	SecretId string `json:"secret_id,omitempty"`
+
 }
+
+
+
+
+

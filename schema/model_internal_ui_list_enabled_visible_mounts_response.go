@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // InternalUiListEnabledVisibleMountsResponse struct for InternalUiListEnabledVisibleMountsResponse
 type InternalUiListEnabledVisibleMountsResponse struct {
+
+
+
+
 	// auth mounts
 	Auth map[string]interface{} `json:"auth,omitempty"`
 
+
+
+
 	// secret mounts
 	Secret map[string]interface{} `json:"secret,omitempty"`
+
 }
+
+
+
+
+

@@ -5,11 +5,33 @@
 
 package schema
 
+
+
+
+
+
+
 // EncryptionKeyReadRotationConfigurationResponse struct for EncryptionKeyReadRotationConfigurationResponse
 type EncryptionKeyReadRotationConfigurationResponse struct {
+
+
+
+
 	Enabled bool `json:"enabled,omitempty"`
+
+
+
 
 	Interval string `json:"interval,omitempty"`
 
+
+
+
 	MaxOperations int64 `json:"max_operations,omitempty"`
+
 }
+
+
+
+
+

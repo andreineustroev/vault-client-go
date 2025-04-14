@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // InternalUiListNamespacesResponse struct for InternalUiListNamespacesResponse
 type InternalUiListNamespacesResponse struct {
+
+
+
+
 	// field is only returned if there are one or more namespaces
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

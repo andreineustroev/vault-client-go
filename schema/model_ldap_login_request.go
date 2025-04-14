@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LdapLoginRequest struct for LdapLoginRequest
 type LdapLoginRequest struct {
+
+
+
+
 	// Password for this user.
 	Password string `json:"password,omitempty"`
+
 }
+
+
+
+
+

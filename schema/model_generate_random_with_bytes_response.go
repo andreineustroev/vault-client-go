@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // GenerateRandomWithBytesResponse struct for GenerateRandomWithBytesResponse
 type GenerateRandomWithBytesResponse struct {
+
+
+
+
 	RandomBytes string `json:"random_bytes,omitempty"`
+
 }
+
+
+
+
+

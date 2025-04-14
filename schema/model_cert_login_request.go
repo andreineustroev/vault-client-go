@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // CertLoginRequest struct for CertLoginRequest
 type CertLoginRequest struct {
+
+
+
+
 	// The name of the certificate role to authenticate against.
 	Name string `json:"name,omitempty"`
+
 }
+
+
+
+
+

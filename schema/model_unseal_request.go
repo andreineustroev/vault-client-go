@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // UnsealRequest struct for UnsealRequest
 type UnsealRequest struct {
+
+
+
+
 	// Specifies a single unseal key share. This is required unless reset is true.
 	Key string `json:"key,omitempty"`
 
+
+
+
 	// Specifies if previously-provided unseal keys are discarded and the unseal process is reset.
 	Reset bool `json:"reset,omitempty"`
+
 }
+
+
+
+
+

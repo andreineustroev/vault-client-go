@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // LeasesRevokeLeaseWithIdRequest struct for LeasesRevokeLeaseWithIdRequest
 type LeasesRevokeLeaseWithIdRequest struct {
+
+
+
+
 	// The lease identifier to renew. This is included with a lease.
 	LeaseId string `json:"lease_id,omitempty"`
 
+
+
+
 	// Whether or not to perform the revocation synchronously
 	Sync bool `json:"sync,omitempty"`
+
 }
+
+
+
+
+

@@ -5,17 +5,42 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiGenerateIntermediateResponse struct for PkiGenerateIntermediateResponse
 type PkiGenerateIntermediateResponse struct {
+
+
+
+
 	// Certificate signing request.
 	Csr string `json:"csr,omitempty"`
+
+
+
 
 	// Id of the key.
 	KeyId string `json:"key_id,omitempty"`
 
+
+
+
 	// Generated private key.
 	PrivateKey string `json:"private_key,omitempty"`
 
+
+
+
 	// Specifies the format used for marshaling the private key.
 	PrivateKeyType string `json:"private_key_type,omitempty"`
+
 }
+
+
+
+
+

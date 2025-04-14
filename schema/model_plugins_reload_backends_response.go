@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // PluginsReloadBackendsResponse struct for PluginsReloadBackendsResponse
 type PluginsReloadBackendsResponse struct {
+
+
+
+
 	ReloadId string `json:"reload_id,omitempty"`
+
 }
+
+
+
+
+

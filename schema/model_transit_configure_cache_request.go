@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // TransitConfigureCacheRequest struct for TransitConfigureCacheRequest
 type TransitConfigureCacheRequest struct {
+
+
+
+
 	// Size of cache, use 0 for an unlimited cache size, defaults to 0
 	Size int32 `json:"size,omitempty"`
+
 }
+
+
+
+
+

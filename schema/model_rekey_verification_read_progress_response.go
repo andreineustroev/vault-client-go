@@ -5,15 +5,43 @@
 
 package schema
 
+
+
+
+
+
+
 // RekeyVerificationReadProgressResponse struct for RekeyVerificationReadProgressResponse
 type RekeyVerificationReadProgressResponse struct {
+
+
+
+
 	N int32 `json:"n,omitempty"`
+
+
+
 
 	Nounce string `json:"nounce,omitempty"`
 
+
+
+
 	Progress int32 `json:"progress,omitempty"`
+
+
+
 
 	Started string `json:"started,omitempty"`
 
+
+
+
 	T int32 `json:"t,omitempty"`
+
 }
+
+
+
+
+

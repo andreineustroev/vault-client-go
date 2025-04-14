@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // GithubLoginRequest struct for GithubLoginRequest
 type GithubLoginRequest struct {
+
+
+
+
 	// GitHub personal API token
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

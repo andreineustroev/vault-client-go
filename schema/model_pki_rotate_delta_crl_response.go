@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiRotateDeltaCrlResponse struct for PkiRotateDeltaCrlResponse
 type PkiRotateDeltaCrlResponse struct {
+
+
+
+
 	// Whether rotation was successful
 	Success bool `json:"success,omitempty"`
+
 }
+
+
+
+
+

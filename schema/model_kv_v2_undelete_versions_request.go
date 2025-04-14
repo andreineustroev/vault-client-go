@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // KvV2UndeleteVersionsRequest struct for KvV2UndeleteVersionsRequest
 type KvV2UndeleteVersionsRequest struct {
+
+
+
+
 	// The versions to unarchive. The versions will be restored and their data will be returned on normal get requests.
 	Versions []int32 `json:"versions,omitempty"`
+
 }
+
+
+
+
+

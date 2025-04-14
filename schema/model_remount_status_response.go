@@ -5,9 +5,28 @@
 
 package schema
 
+
+
+
+
+
+
 // RemountStatusResponse struct for RemountStatusResponse
 type RemountStatusResponse struct {
+
+
+
+
 	MigrationId string `json:"migration_id,omitempty"`
 
+
+
+
 	MigrationInfo map[string]interface{} `json:"migration_info,omitempty"`
+
 }
+
+
+
+
+

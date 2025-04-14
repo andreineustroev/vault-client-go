@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LdapLibraryCheckInRequest struct for LdapLibraryCheckInRequest
 type LdapLibraryCheckInRequest struct {
+
+
+
+
 	// The username/logon name for the service accounts to check in.
 	ServiceAccountNames []string `json:"service_account_names,omitempty"`
+
 }
+
+
+
+
+

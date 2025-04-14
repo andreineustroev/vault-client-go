@@ -5,11 +5,33 @@
 
 package schema
 
+
+
+
+
+
+
 // PoliciesReadAclPolicyResponse struct for PoliciesReadAclPolicyResponse
 type PoliciesReadAclPolicyResponse struct {
+
+
+
+
 	Name string `json:"name,omitempty"`
+
+
+
 
 	Policy string `json:"policy,omitempty"`
 
+
+
+
 	Rules string `json:"rules,omitempty"`
+
 }
+
+
+
+
+

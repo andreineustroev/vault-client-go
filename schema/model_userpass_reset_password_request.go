@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // UserpassResetPasswordRequest struct for UserpassResetPasswordRequest
 type UserpassResetPasswordRequest struct {
+
+
+
+
 	// Password for this user.
 	Password string `json:"password,omitempty"`
+
 }
+
+
+
+
+

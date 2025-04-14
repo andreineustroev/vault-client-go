@@ -5,9 +5,28 @@
 
 package schema
 
+
+
+
+
+
+
 // VersionHistoryResponse struct for VersionHistoryResponse
 type VersionHistoryResponse struct {
+
+
+
+
 	KeyInfo map[string]interface{} `json:"key_info,omitempty"`
 
+
+
+
 	Keys []string `json:"keys,omitempty"`
+
 }
+
+
+
+
+

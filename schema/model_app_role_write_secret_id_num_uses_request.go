@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleWriteSecretIdNumUsesRequest struct for AppRoleWriteSecretIdNumUsesRequest
 type AppRoleWriteSecretIdNumUsesRequest struct {
+
+
+
+
 	// Number of times a SecretID can access the role, after which the SecretID will expire.
 	SecretIdNumUses int32 `json:"secret_id_num_uses,omitempty"`
+
 }
+
+
+
+
+

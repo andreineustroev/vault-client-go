@@ -5,7 +5,23 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiIssuerReadCrlDeltaDerResponse struct for PkiIssuerReadCrlDeltaDerResponse
 type PkiIssuerReadCrlDeltaDerResponse struct {
+
+
+
+
 	Crl string `json:"crl,omitempty"`
+
 }
+
+
+
+
+

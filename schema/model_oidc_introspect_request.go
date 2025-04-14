@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // OidcIntrospectRequest struct for OidcIntrospectRequest
 type OidcIntrospectRequest struct {
+
+
+
+
 	// Optional client_id to verify
 	ClientId string `json:"client_id,omitempty"`
 
+
+
+
 	// Token to verify
 	Token string `json:"token,omitempty"`
+
 }
+
+
+
+
+

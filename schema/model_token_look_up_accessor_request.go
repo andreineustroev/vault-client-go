@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // TokenLookUpAccessorRequest struct for TokenLookUpAccessorRequest
 type TokenLookUpAccessorRequest struct {
+
+
+
+
 	// Accessor of the token to look up (request body)
 	Accessor string `json:"accessor,omitempty"`
+
 }
+
+
+
+
+

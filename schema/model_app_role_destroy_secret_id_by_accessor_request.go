@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // AppRoleDestroySecretIdByAccessorRequest struct for AppRoleDestroySecretIdByAccessorRequest
 type AppRoleDestroySecretIdByAccessorRequest struct {
+
+
+
+
 	// Accessor of the SecretID
 	SecretIdAccessor string `json:"secret_id_accessor,omitempty"`
+
 }
+
+
+
+
+

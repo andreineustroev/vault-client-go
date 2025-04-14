@@ -5,17 +5,42 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiReadIssuerPemResponse struct for PkiReadIssuerPemResponse
 type PkiReadIssuerPemResponse struct {
+
+
+
+
 	// CA Chain
 	CaChain []string `json:"ca_chain,omitempty"`
+
+
+
 
 	// Certificate
 	Certificate string `json:"certificate,omitempty"`
 
+
+
+
 	// Issuer Id
 	IssuerId string `json:"issuer_id,omitempty"`
 
+
+
+
 	// Issuer Name
 	IssuerName string `json:"issuer_name,omitempty"`
+
 }
+
+
+
+
+

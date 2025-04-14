@@ -5,13 +5,38 @@
 
 package schema
 
+
+
+
+
+
+
 // JwtOidcCallbackFormPostRequest struct for JwtOidcCallbackFormPostRequest
 type JwtOidcCallbackFormPostRequest struct {
+
+
+
+
 	ClientNonce string `json:"client_nonce,omitempty"`
+
+
+
 
 	Code string `json:"code,omitempty"`
 
+
+
+
 	IdToken string `json:"id_token,omitempty"`
 
+
+
+
 	State string `json:"state,omitempty"`
+
 }
+
+
+
+
+

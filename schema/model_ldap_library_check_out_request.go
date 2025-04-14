@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // LdapLibraryCheckOutRequest struct for LdapLibraryCheckOutRequest
 type LdapLibraryCheckOutRequest struct {
+
+
+
+
 	// The length of time before the check-out will expire, in seconds.
 	Ttl string `json:"ttl,omitempty"`
+
 }
+
+
+
+
+

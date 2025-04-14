@@ -5,9 +5,28 @@
 
 package schema
 
+
+
+
+
+
+
 // KvV2ReadResponse struct for KvV2ReadResponse
 type KvV2ReadResponse struct {
+
+
+
+
 	Data map[string]interface{} `json:"data,omitempty"`
 
+
+
+
 	Metadata map[string]interface{} `json:"metadata,omitempty"`
+
 }
+
+
+
+
+

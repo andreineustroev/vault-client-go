@@ -5,15 +5,43 @@
 
 package schema
 
+
+
+
+
+
+
 // RekeyVerificationCancelResponse struct for RekeyVerificationCancelResponse
 type RekeyVerificationCancelResponse struct {
+
+
+
+
 	N int32 `json:"n,omitempty"`
+
+
+
 
 	Nounce string `json:"nounce,omitempty"`
 
+
+
+
 	Progress int32 `json:"progress,omitempty"`
+
+
+
 
 	Started string `json:"started,omitempty"`
 
+
+
+
 	T int32 `json:"t,omitempty"`
+
 }
+
+
+
+
+

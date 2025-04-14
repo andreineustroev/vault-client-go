@@ -5,11 +5,30 @@
 
 package schema
 
+
+
+
+
+
+
 // RekeyAttemptUpdateRequest struct for RekeyAttemptUpdateRequest
 type RekeyAttemptUpdateRequest struct {
+
+
+
+
 	// Specifies a single unseal key share.
 	Key string `json:"key,omitempty"`
 
+
+
+
 	// Specifies the nonce of the rekey attempt.
 	Nonce string `json:"nonce,omitempty"`
+
 }
+
+
+
+
+

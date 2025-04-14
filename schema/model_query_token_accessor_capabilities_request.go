@@ -5,15 +5,37 @@
 
 package schema
 
+
+
+
+
+
+
 // QueryTokenAccessorCapabilitiesRequest struct for QueryTokenAccessorCapabilitiesRequest
 type QueryTokenAccessorCapabilitiesRequest struct {
+
+
+
+
 	// Accessor of the token for which capabilities are being queried.
 	Accessor string `json:"accessor,omitempty"`
+
+
+
 
 	// Use 'paths' instead.
 	// Deprecated
 	Path []string `json:"path,omitempty"`
 
+
+
+
 	// Paths on which capabilities are being queried.
 	Paths []string `json:"paths,omitempty"`
+
 }
+
+
+
+
+

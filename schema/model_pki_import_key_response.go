@@ -5,14 +5,36 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiImportKeyResponse struct for PkiImportKeyResponse
 type PkiImportKeyResponse struct {
+
+
+
+
 	// ID assigned to this key.
 	KeyId string `json:"key_id,omitempty"`
+
+
+
 
 	// Name assigned to this key.
 	KeyName string `json:"key_name,omitempty"`
 
+
+
+
 	// The type of key to use; defaults to RSA. \"rsa\" \"ec\" and \"ed25519\" are the only valid values.
 	KeyType string `json:"key_type,omitempty"`
+
 }
+
+
+
+
+

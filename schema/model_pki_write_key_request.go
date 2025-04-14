@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiWriteKeyRequest struct for PkiWriteKeyRequest
 type PkiWriteKeyRequest struct {
+
+
+
+
 	// Human-readable name for this key.
 	KeyName string `json:"key_name,omitempty"`
+
 }
+
+
+
+
+

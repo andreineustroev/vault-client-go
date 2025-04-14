@@ -5,8 +5,24 @@
 
 package schema
 
+
+
+
+
+
+
 // PkiIssuersImportBundleRequest struct for PkiIssuersImportBundleRequest
 type PkiIssuersImportBundleRequest struct {
+
+
+
+
 	// PEM-format, concatenated unencrypted secret-key (optional) and certificates.
 	PemBundle string `json:"pem_bundle,omitempty"`
+
 }
+
+
+
+
+
